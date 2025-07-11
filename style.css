@@ -109,7 +109,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  padding: 30px 0;
   background-color: #e5e7ff;
   border-radius: 24px;
   max-width: 1140px;
@@ -138,9 +138,42 @@ header {
   font-weight: bold;
   font-size: 38px;
 }
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.avatar img {
+  border-radius: 999px;
+}
+
+/* .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ */
+button:hover {
+  cursor: pointer;
+}
+
 .user-column {
   display: flex;
+  justify-content: space-between; /* start from top left */
   gap: 20px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .avatar {
   display: flex;
@@ -157,6 +190,7 @@ header {
   font-size: 42px;
 }
 .user-column-container {
+  width: 26%;
   padding: 30px;
   border-radius: 5px;
   background-color: #ffffff;
@@ -165,12 +199,14 @@ header {
 .user {
   margin-bottom: 137px;
 }
+
 .focus {
   max-width: 1140px;
   background-color: white;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 93px;
@@ -205,6 +241,7 @@ header {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding-bottom: 85px;
 }
 .touch h1 {
   font-size: 97px;
@@ -212,6 +249,7 @@ header {
 }
 .touch-right {
   width: 50%;
+  font-size: 20px;
 }
 .touch-header {
   width: 50%;
@@ -247,6 +285,7 @@ footer ul > li {
 }
 footer li > a {
   text-decoration: none;
+  color: rgba(137, 135, 161, 1);
 }
 .list-item {
   display: flex;
