@@ -1,0 +1,254 @@
+/* font */
+/* main, header{
+    background-color: #f5f8ff ;
+}
+header{
+    background-color: red ;
+} */
+
+html {
+  background-color: #f5f8ff;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn {
+  padding: 12px 36px;
+
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+.primary-color {
+  color: #4e47ff;
+}
+.primary-button {
+  font-size: 16px;
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+}
+.nav-header {
+  background-image: url(Assets/Hero-bg.png);
+  background-size: cover; /* image will cover with full div */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  height: 700px;
+}
+.logo {
+  /* height: 51px; */
+  font-size: 34px;
+
+  margin: 50px 200px;
+}
+.header-btn {
+  margin: 50px 200px;
+
+  padding: 12px 36px;
+
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 10px;
+  border: none;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.inner-header {
+  margin: 50px 200px;
+  display: flex;
+}
+.header-elm {
+  font-size: 65px;
+}
+.header-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-center {
+  display: flex;
+  justify-content: center;
+}
+header {
+  margin-bottom: 116px;
+}
+
+/* action section */
+.section-container {
+  display: flex;
+  gap: 220px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 116px;
+  /* gap: 50px; */
+}
+.right-action img {
+  border-radius: 48px;
+}
+.productive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #e5e7ff;
+  border-radius: 24px;
+  max-width: 1140px;
+
+  margin: 0 auto;
+  margin-bottom: 137px;
+}
+.productive p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.productive-column {
+  display: flex;
+  gap: 158px;
+}
+.productive-column h1 {
+  color: #4e47ff;
+  font-size: 80px;
+  margin: 0;
+}
+.productive-column p {
+  display: flex;
+  justify-content: center;
+}
+.productive h5 {
+  font-weight: bold;
+  font-size: 38px;
+}
+.user-column {
+  display: flex;
+  gap: 20px;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-container h1 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.user-column-container {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  /* box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) */
+}
+.user {
+  margin-bottom: 137px;
+}
+.focus {
+  max-width: 1140px;
+  background-color: white;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 93px;
+  /* padding: 71px 150px; */
+  padding: 71px 0;
+}
+
+/* focus style  */
+.focus-image img {
+  border-radius: 48px;
+}
+.touch-container {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+}
+
+.touch input[type="email"],
+.touch input[type="text"],
+.touch textarea {
+  display: block;
+  padding: 18px 350px 18px 30px;
+  border: none;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+.touch {
+  max-width: 1140px;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.touch h1 {
+  font-size: 97px;
+  font-weight: bold;
+}
+.touch-right {
+  width: 50%;
+}
+.touch-header {
+  width: 50%;
+}
+.touch-btn {
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 19px 201px;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-inner {
+  max-width: 531px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+footer ul > li {
+  list-style: none;
+}
+footer li > a {
+  text-decoration: none;
+}
+.list-item {
+  display: flex;
+  gap: 48px;
+}
